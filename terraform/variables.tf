@@ -37,3 +37,8 @@ variable "availability_zone" {
 	default	= "us-east-1a"
 	type	= string
 }
+
+variable "admin_ip" {
+  description = "Public IPv4 address allowed to administer the laboratory (CIDR notation)"
+  type        = string
+}
