@@ -1,3 +1,18 @@
+## Repository Status
+
+This repository is intended for educational and research purposes only.
+
+The Terraform configuration contained here was developed as part of the AWS Cloud Forensics Research Lab to better understand Terraform syntax, infrastructure-as-code concepts, and their application to cloud forensics and DFIR research.
+
+At the time of publication, this configuration has **not been deployed** as a complete production or research environment. Consequently, the repository should be considered a reference implementation rather than a validated deployment.
+
+Some configuration values have been intentionally generalized, omitted, or sanitized to prevent the disclosure of sensitive information, including but not limited to account identifiers, credentials, environment-specific parameters, and other security-relevant details.
+
+The examples provided are intended to illustrate the design of the laboratory infrastructure and the relationship between Terraform-defined resources and AWS cloud environments. They should be reviewed, adapted, and validated before being used in any real AWS account.
+
+Researchers and practitioners are encouraged to customize the infrastructure according to their own experimental objectives, security requirements, and AWS best practices.
+
+
 # AWS Cloud Forensics Research Lab - Terraform Deployment
 
 ## Purpose
